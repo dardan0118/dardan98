@@ -1,0 +1,146 @@
+html
+{
+    background-image: url(../images/sneuuw.jpg);
+}
+
+
+body
+{
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+background-color: darkslategrey;
+font-weight: 300;
+background-image: url(../images/sneuuw.jpg);
+
+}
+
+.container
+{
+    width: 80%;
+    margin: 0% auto;
+}
+
+header
+{
+background-size: cover;
+height: auto;
+border: solid 2px black;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo
+{
+    float: left;
+    height: 100px; 
+    width: 100px;
+}
+
+nav
+{
+    float: right;
+}
+
+nav ul 
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-left: 75px;
+    padding-top: 45px;
+    position: relative;
+}
+
+nav a 
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    color: darkturquoise;
+}
+
+nav a::before{
+    content: "";
+    display : block;
+    height: 5px;
+    width: 100%;
+    background-color:darkturquoise;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 350ms;
+}
+
+nav a:hover::before{
+    width: 100%;
+}
+
+h2
+{
+    text-align: center;
+    color:white;
+}
+
+.fa
+{
+    font-size: 50px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+.fa:hover {
+    color: darkblue;
+  }
+
+.fotoItem
+{
+    height: 300px;
+    width: 400px;
+    text-align: center;
+}
+
+.screen2
+{
+    text-align: center;
+    height: 300px;
+    width: 400px;
+}
+
+.vaardigheden
+{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color:grey;
+    width: 1510px;
+    color: white;
+    text-align: center;
+    padding: 13px;
+    
+}
+
+
+h5
+{
+    float: right;
+    padding: 5px;
+}
+
